@@ -42,3 +42,27 @@
   font-weight: bold;
   margin: 10px 0 0;
 }
+
+@media screen and (max-width: 940px) {
+  .produtos {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .produtos li {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .produtos {
+    flex-direction: column;
+  }
+}
